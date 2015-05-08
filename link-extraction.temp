@@ -1,0 +1,6 @@
+Value Comment ([\s\S]+)
+Value Link ([\s\S]+)
+Value Title ([\s\S]*)
+
+Start
+  ^<p>-\s+${Comment}<a href="${Link}"\s(id="(.*)")*\s(rel="(.*)")*\starget="(.*)">${Title}</a></p> -> Record
