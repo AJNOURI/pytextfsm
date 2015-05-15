@@ -1,0 +1,9 @@
+Value Interface (\S+)
+Value Prefix (\S+)
+Value Ok (\S+)
+Value Method (\S+)
+Value Status (\S+)
+Value Protocol (\S+)
+
+Start
+  ^${Interface}\s+${Prefix}\s+${Ok}\s+${Method}\s+${Status}\s+${Protocol} -> Record
